@@ -1,4 +1,4 @@
-echo 'name: Hello World
+name: Hello World
 on: push
 
 jobs:
@@ -8,4 +8,4 @@ jobs:
       - name: Say hello
         run: echo "Hello from GitHub Actions!"
       - name: Show runner info
-        run: uname -a' > .github/workflows/hello.yml
+        run: uname -a
