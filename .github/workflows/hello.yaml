@@ -1,0 +1,11 @@
+echo 'name: Hello World
+on: push
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hello
+        run: echo "Hello from GitHub Actions!"
+      - name: Show runner info
+        run: uname -a' > .github/workflows/hello.yml
